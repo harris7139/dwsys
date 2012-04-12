@@ -1,0 +1,630 @@
+/*
+	Theme Name: Studio960 by Cudazi
+*/
+
+/* note, see the /css/colors/ folder for additional color information. */
+
+html, body, form,
+h1, h2, h3, h4, h5, h6,
+p, img, a
+{
+	margin:0;
+	padding:0;
+	outline:0;
+	border:0;
+}
+body, html
+{
+	background:#f2f2f2;
+}
+body
+{
+	color:#555;
+	border-top:6px solid #555;
+	font-size:12px;
+}
+body, textarea, .promo span, .widgettitle, .minipost h3 a
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1 { font-size:40px; line-height:40px; letter-spacing:-2px; }
+h2 { font-size:32px; line-height:30px; letter-spacing:-1.5px; }
+h3 { font-size:23px; line-height:25px; letter-spacing:-0.5px; }
+h4 { font-size:20px; line-height:25px; letter-spacing:-0.5px; }
+h5 { font-size:18px; line-height:25px; letter-spacing:-0.5px; }
+h6 { font-size:16px; line-height:25px; letter-spacing:-0.5px; }
+
+.promo, h1, h2, h3, h4, h5, h6
+{
+	font-family:"Arial Black", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	padding:0 0 10px 0;
+	font-weight:normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+{
+	color:#555;
+	text-decoration:none;
+}
+p
+{
+	padding:0 0 10px 0;
+	line-height:150%;
+}
+p.subhead
+{
+	padding:0;
+	font-size:11px;
+	color:#888;
+}
+a
+{
+	color:#555;
+}
+a:hover
+{
+	color:#000;
+}
+a:active
+{
+	color:#555;
+}
+input
+{
+	outline:0;
+}
+UL
+{
+	margin:0;
+	padding:0 0 0 30px;
+}
+UL LI
+{
+	padding:1px 0;
+}
+UL LI UL
+{
+	padding:0 0 0 20px;
+}
+.promo
+{
+	color:#555;
+	font-size:50px;
+	line-height:50px;
+	letter-spacing:-3px;
+	padding:0 0 30px 0;
+}
+.promo span
+{
+	letter-spacing:-0.5px;
+	color:#888;
+	font-size:20px;
+	line-height:15px;
+	display:block;
+	padding:0;
+}
+#header
+{
+	padding:40px 0;
+	color:#888;
+}
+#header UL.social
+{
+	padding:10px 0 0 0;
+}
+#header UL.social LI A
+{
+	display:block;
+	padding:5px 15px 5px 30px;
+	float:left;
+	text-decoration:none;
+	color:#888;
+	font-weight:bold;
+} 
+#header UL.social LI A:hover
+{
+	color:#333;
+	background-position:left center;
+}
+UL.topmenu LI A
+{
+	padding-right:8px;
+}
+#header UL.social LI A.rss { background:url(../images/icons/rss.png) no-repeat; }
+#header UL.social LI A.twitter { background:url(../images/icons/twitter.png) no-repeat; }
+#header UL.social LI A.facebook { background:url(../images/icons/facebook.png) no-repeat; }
+#header UL.social LI A.digg { background:url(../images/icons/digg.png) no-repeat; }
+#header UL.social LI A.linkedin { background:url(../images/icons/linkedin.png) no-repeat; }
+#header UL.social LI A.youtube { background:url(../images/icons/youtube.png) no-repeat; }
+#header UL.social LI A.delicious { background:url(../images/icons/delicious.png) no-repeat; }
+#header UL.social LI A.feedburner { background:url(../images/icons/feedburner.png) no-repeat; }
+.widget
+{
+	padding:0 0 20px 0;
+	font-size:11px;
+}
+.widgettitle
+{
+	font-size:18px;
+}
+
+/* Gallery/slider */
+.btn
+{
+	cursor:pointer;
+	display:block;
+	float:left;
+	width:9px;
+	height:9px;
+	line-height:9px;
+	background:#ddd;
+	text-indent:-9999px;
+	margin:0 6px 0 0;
+}
+.btn:hover,
+.current
+{
+	background:#999;
+}
+.btn:active
+{
+	background:#000;
+}
+.carousel
+{
+	background:#fff;
+}
+.gallery-nav
+{
+	padding:9px 0 10px 6px;
+}
+/* end gallery/slider */
+
+#outer
+{
+	border-top:1px solid #fff;
+	/*background, top border is set in body */
+}
+#main
+{
+	padding:20px 0;
+}
+#footer
+{
+	font-size:10px;
+	padding:20px 0 40px 0;
+}
+.smallnav a
+{
+	display:block;
+	float:left;
+	padding:0 10px 10px 0;
+	color:#999;
+	text-decoration:none;
+}
+.smallnav a:hover
+{
+	text-decoration:underline;
+}
+#footer .smallnav a
+{
+	padding:0 0 0 8px;
+}
+.post
+{
+	padding:0 0 20px 0;
+}
+.postmeta, .postmeta a
+{
+	font-size:10px;
+	color:#888;
+}
+.minipost
+{
+	padding:10px 0 20px 0;
+}
+.minipost h3 a
+{
+	font-size:19px;
+	letter-spacing:-.1px;
+	word-spacing:-1px;
+}
+.minipost h3
+{
+	padding:0 0 5px 0;
+	line-height:20px;
+}
+.minipost h3 a:hover
+{
+	color:#000;
+}
+.minipost p
+{
+	padding:0 0 10px 0;
+	font-size:11px;
+	line-height:16px;
+}
+.minipost p small
+{	
+	font-size:10px;
+	display:block;
+	margin:0 0 5px 0;
+	padding:0 0 3px 0;
+	background:url(../images/hr.jpg) repeat-x bottom;
+	text-transform:uppercase;
+}
+.minipost p small,
+.minipost p small a
+{
+	color:#bbb;
+	text-decoration:none;
+}
+.item-thumb img
+{
+	border:4px solid #fff;
+}
+.item-thumb
+{
+	margin:0 0 8px 0;
+}
+
+/*override default arrow with hand, 
+for JS links, buttons, etc... */
+.hand
+{
+	cursor:pointer;
+}
+.rounded-small
+{
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.rounded-medium
+{
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+
+.sf-menu
+{
+	-webkit-box-shadow: 0px 0px 2px #e0e0e0;
+	-moz-box-shadow: 0px 0px 2px #e0e0e0;
+}
+.sf-menu li.sfHover ul
+{
+	-webkit-box-shadow: 0px 1px 2px #e0e0e0;
+	-moz-box-shadow: 0px 1px 2px #e0e0e0;
+}
+.shadow-medium
+{
+	-webkit-box-shadow: 0px 0px 3px #e0e0e0;
+	-moz-box-shadow: 0px 0px 3px #e0e0e0;
+}
+.hovershadow-medium:hover
+{
+	-webkit-box-shadow: 0px 0px 5px #d6d6d6;
+	-moz-box-shadow: 0px 0px 5px #d6d6d6;
+}
+/*.sf-menu LI.current_page_item, li.sfHover ul,*/
+
+.shadow-large
+{
+	-webkit-box-shadow: 0px 0px 3px #ddd;
+	-moz-box-shadow: 0px 0px 3px #ddd;
+}
+
+/* HR Line */
+hr
+{
+	border:0;
+	border-bottom:1px solid #e5e5e5;
+	height:1px;
+	margin:10px 0;
+}
+.section-bottom, .section-top
+{
+	background-image:url(../images/hr-tab.jpg);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+}
+.section-top
+{
+	background-position:top center;
+}
+
+
+/* dropdown menus */
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+	font-size:		20px;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+	color:			#888;
+	border-right:1px solid #fff;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			-1px;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+.sf-menu {
+	float:left;
+	margin-bottom:1em;
+	width:100%;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	background:#e8e8e8;
+}
+.sf-menu a {
+	padding:10px 30px;
+	text-decoration:none;
+}
+.sf-menu a:hover
+{
+	color:#444;
+}
+
+.sf-menu li {
+	background:none;
+}
+.sf-menu li li {
+	background:#fff;
+}
+.sf-menu li li li,
+.sf-menu li li li li {
+	background:#fff;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active,
+.sf-menu li.sfHover a
+ {
+	background:#fff;
+	outline:		0;
+}
+.sf-menu LI.current_page_item
+{
+	background:#dbdbdb;
+}
+.sf-menu a.sf-with-ul {
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+
+.sf-menu .sf-sub-indicator
+{
+	display:none;
+}
+.sf-menu LI UL .sf-sub-indicator
+{
+	display:inline;
+	float:right;
+	position:absolute;
+	top:10px;
+	right:10px;
+	color:#ccc;
+}
+.sf-menu small
+{
+	display:block;
+	font-size:10px;
+}
+.sf-menu li.end
+{
+	position:absolute;
+	right:11px;
+	top:13px;
+}
+.sf-menu li.end a,
+.sf-menu li.end:hover
+{
+	background:none;
+	border:0;
+}
+/*end menu css*/
+
+
+.searchform
+{
+	background:#fff;
+	padding:2px;
+	width:206px;
+	height:22px
+}
+
+.searchform input,
+.searchform button
+{
+	border:0;
+	background:none;
+	
+}
+.searchform button
+{
+	font-size:10px;
+	line-height:16px;
+	height:22px;
+	background:#ccc;
+	padding:4px 5px 8px 5px;
+	color:#fff;
+	font-weight:bold;
+}
+.searchform input
+{
+	padding:4px 0 8px 5px;
+	color:#aaa;
+	font-weight:bold;
+	width:156px;
+}
+.searchform button:hover
+{
+	background:#bbb;
+}
+form.standard .field
+{
+	padding:0 0 15px 0;
+}
+form.standard label
+{
+	display:block;
+	padding:0 0 2px 2px;
+}
+form.standard .textbox,
+form.standard .textarea,
+form.standard .select,
+form.standard .button,
+form.standard .checkbox,
+form.standard .radio
+{
+	border:1px solid #ccc;
+	padding:5px 3px;
+}
+form.standard .checkbox,
+form.standard .radio
+{
+	border:0;
+}
+form.standard .button
+{
+	background:#c0c0c0;
+	color:#fff;
+	cursor:pointer;
+}
+form.standard .button:hover
+{
+	background:#aaa;
+}
+
+/* Used with jquery to hide element on click */
+.clickhide
+{
+	cursor:pointer;
+}
+span.error
+{
+	color:#990000;
+}
+p.message
+{
+	padding:10px 15px;
+	background:#fff;
+	margin:10px 0;
+}
+p.error,p.warning,p.success
+{
+	color:#fff;
+}
+p.error
+{
+	background:#990000;
+}
+p.warning
+{
+	background:#f90;
+}
+p.success
+{
+	background:#339933;
+}
+
+/* Fix Menu Z-INDEX issues*/
+#main
+{
+	z-index:10;
+}
+#menu
+{
+	z-index:11;
+}
+
+UL.clean, UL.clean LI
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:inline;
+}
+.alternate, .hidden
+{
+	display:none;
+}
+.right
+{
+	float:right;
+}
+.left
+{
+	float:left;
+}
+
+img.alignright {float:right; margin:5px 0 10px 10px; }
+img.alignleft {float:left; margin:5px 10px 10px 0; }
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+ /* basic css for send mail PHP page */
+.send-status
+{
+	width:300px;
+	margin:100px auto;
+}
+
+/* sample formatting for 960gs page */
+.demo-grid
+{
+	margin:10px 0;
+}
+.demo-grid p
+{
+	text-align:center;
+	padding:10px;
+	margin-bottom:20px;
+	font-weight:bold;
+	border:1px dotted #aaa;
+}
+

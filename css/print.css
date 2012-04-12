@@ -1,0 +1,33 @@
+
+/* Styles to use when printing a page */
+
+body
+{
+	background:white;
+	color:black;
+	width:100%;
+}
+img
+{
+	border:0;
+}
+/* for a quick way to hide something from printing, 
+add a class  of "noprint" or add selector to the list below*/
+.noprint, 
+.sf-menu, 
+.smallnav, 
+.social
+{
+	display:none;
+}
+a
+{
+	text-decoration:underline;
+	color:#0033CC;
+}
+hr
+{
+	border:0;
+	background:none;
+	border-bottom:2px solid #555;
+}

@@ -1,0 +1,9 @@
+/* Orange CSS */
+body
+{
+	border-top:6px solid #f90;
+}
+a, a:active
+{
+	color:#f90;
+}
